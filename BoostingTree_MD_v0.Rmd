@@ -9,8 +9,20 @@ output:
     number_sections: yes
   pdf_document:
     toc: yes
-institute: Detralytics
 ---
+
+```{r results="asis", echo = FALSE}
+cat("
+<style>
+#TOC {
+ background: url(LogoDetra.png);
+ background-size: contain;
+ padding-top: 90px !important;
+ background-repeat: no-repeat;
+}
+</style>
+")
+```
 
 # Introduction and database descriptive analysis
 

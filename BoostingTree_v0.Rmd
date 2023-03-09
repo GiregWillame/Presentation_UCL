@@ -101,7 +101,7 @@ $$
 ## Boosting - Remarks on subsampling
 
 * While fitting the tree for a given iteration $m$, one can introduce some randomness.
-* This approach aims to fit the current weak learner on a random sample of the training database, without replacement.
+* This approach aims to fit the current weak learner on a random sample (without replacement) of the training database.
 * It has basically two benefits:
   * The variance of each weak learner estimates at each iteration increases. However, there will be less correlation between these estimates at different iterations.
   It finally leads to a  **variance reduction** of the combined model.
